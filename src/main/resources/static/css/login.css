@@ -5,15 +5,188 @@ body{
 .main{
     width: 100%;
     height: 100%;
-    background:url("/img/background.png") no-repeat;
+    background:url("http://vormor.cn:8080/img/background.png") no-repeat;
     background-size:100% 100%;
 }
 
-.inputBox{
+.input_box{
     float: left;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     width: 380px;
     height: 490px;
-    margin-left: 10% ;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.tips{
+    float: left;
+    width: 170px;
+    height: 35px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #525252;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align:center;
+    color: #fff;
+    line-height: 35px;
+}
+
+
+.tit_h3{
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #121639;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.iphone {
+    width: 80%;
+    margin-left: 7.5%;
+    height: 43px;
+    float: left;
+    margin-top: 32px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 16px;
+}
+
+.iphone input{
+    caret-color: #ff7b11;
+    width: 100%;
+    display: block;
+    border:none;
+    outline:medium;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #121639;
+    letter-spacing: 0;
+    line-height: 38px;
+    height: 38px;
+}
+
+.gsjs{
+    width: 50%;height: 20px;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #adadad;
+    outline:none;
+}
+
+
+.gsjss{
+    width: 50%;height: 20px;
+    padding-bottom: 5%;
+    border-bottom: 2px solid black;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.test-code{
+    width: 80%;
+    margin-left: 7.5%;
+    height: 43px;
+    float: left;
+    margin-top: 32px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 16px;
+}
+
+.test-code div:first-child {
+    float: left;
+    width: 60%;
+    height: 48px;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.test-code div:last-child span {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #d8d8d8;
+    letter-spacing: 0;
+    line-height: 46px;
+    float: left;
+}
+
+.test-code input {
+    caret-color: #ff7b11;
+    width: 100%;
+    display: block;
+    border:none;
+    outline:medium;
+    float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #121639;
+    letter-spacing: 0;
+    line-height: 38px;
+    height: 38px;
+}
+
+#content2{
+    display:none;
+}
+
+#sendsms {
+    margin-left: 52%;
+    float: left;
+    width: 106px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    line-height: 46px;
+    font-size: 16px;
+    color: #ff7b11;
+    letter-spacing: 0;
     background: #fff;
 }
+
+
+.btn {
+    width: 85.5%;
+    margin-left: 8%;
+    margin-top: 32px;
+    background: #ff7b11;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
